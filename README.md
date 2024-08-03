@@ -18,7 +18,7 @@ Benvenuti in **PressPortal**, un'applicazione fullstack progettata per creare e 
 ## Struttura del Progetto
 
 La struttura del progetto è organizzata come segue allo stato attuale:
-
+```
 PressPortal/
 ├── public/
 ├── src/
@@ -36,7 +36,7 @@ PressPortal/
 ├── postcss.config.js
 ├── tailwind.config.js
 └── vite.config.js
-
+```
 
 ## Requisiti
 
@@ -54,7 +54,7 @@ PressPortal/
 2. **Installa le dipendenze:**
    npm install
    
-##Esecuzione
+## Esecuzione
 1. **Avvia l'applicazione:**
    npm run dev
 2. **Indirizzo di default**
