@@ -52,13 +52,15 @@ PressPortal/
    cd PressPortal
 
 2. **Installa le dipendenze:**
-   npm install
+   ```npm install```
    
 ## Esecuzione
 1. **Avvia l'applicazione:**
    npm run dev
-2. **Indirizzo di default**
-   Per raggiungere l'applicazione basta collegarsi da un qualsiasi browser web all'indirizzo '[http://localhost:3000](http://localhost:5173)'
+   
+3. **Indirizzo di default**
+   Per raggiungere l'applicazione basta collegarsi da un qualsiasi browser web all'indirizzo
+   ```'[http://localhost:5173](http://localhost:5173)'```
 
 # Licenza
 
