@@ -2,7 +2,11 @@
 
 Benvenuti in **PressPortal**, un'applicazione fullstack progettata per creare e gestire il sito di una testata giornalistica. Questo progetto utilizza una moderna stack tecnologica per garantire alte prestazioni e un'esperienza utente fluida.
 
-##Progresso del progetto
+## Progresso del progetto
+
+[███------------------------] 20%
+
+
 
 
 ## Tecnologie Utilizzate
