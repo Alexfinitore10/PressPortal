@@ -5,6 +5,7 @@ function MainPage(){
     return(
         <>
             <Navbar />
+            {/* TODO aggiungi in un componente diverso */}
             <div className="mx-auto flex flex-col items-center justify-center">
                 <h1 className="text-5xl font-bold">Benvenuto su NewsHub</h1>
                 <div className="flex flex-row gap-5">

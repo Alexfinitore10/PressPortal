@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function LoginForm() {
     return(
     <>
@@ -24,7 +25,7 @@ function LoginForm() {
             </div>
         </div>
         <div>
-            <p>Non sei ancora registrato? Clicca <a className="text-red-700" href="#">qui</a> per registrarti</p>
+            <p>Non sei ancora registrato? Clicca <Link className="text-red-700" to="/register">qui</Link> per registrarti</p>
         </div>
     </>
     )
