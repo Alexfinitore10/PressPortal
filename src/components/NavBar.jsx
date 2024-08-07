@@ -9,6 +9,7 @@ function Navbar(){
             <Link to='/about'>About</Link>
             <Link to='/contact'>Contact</Link>
             <Link to='/creazione-utenza'>Creazione Utenza</Link>
+            <Link to='/pubblica-articolo'>Crea articolo</Link>
           </div>
           <div className='flex'>
             <Link to='/login'>Log-in</Link>

@@ -10,6 +10,7 @@ import MainPage from './Pages/MainPage.jsx';
 import RegisterPage from './Pages/RegisterPage.jsx'
 import CreazioneGiornalista from './Pages/CreazioneGiornalista.jsx'
 import './index.css'
+import CreaArticolo from './Pages/CreaArticolo.jsx';
 
 
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/creazione-utenza",
     element : <CreazioneGiornalista />
+  },
+  {
+    path: "/pubblica-articolo",
+    element: <CreaArticolo />
   }
 ]);
 
