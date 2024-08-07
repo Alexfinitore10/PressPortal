@@ -8,6 +8,7 @@ function Navbar(){
             <Link to='/home'>Home</Link>
             <Link to='/about'>About</Link>
             <Link to='/contact'>Contact</Link>
+            <Link to='/creazione-utenza'>Creazione Utenza</Link>
           </div>
           <div className='flex'>
             <Link to='/login'>Log-in</Link>

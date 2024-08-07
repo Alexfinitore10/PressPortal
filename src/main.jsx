@@ -8,6 +8,7 @@ import App from './App.jsx'
 import LoginPage from './Pages/LoginPage.jsx'
 import MainPage from './Pages/MainPage.jsx';
 import RegisterPage from './Pages/RegisterPage.jsx'
+import CreazioneGiornalista from './Pages/CreazioneGiornalista.jsx'
 import './index.css'
 
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <RegisterPage />
+  },
+  {
+    path: "/creazione-utenza",
+    element : <CreazioneGiornalista />
   }
 ]);
 
