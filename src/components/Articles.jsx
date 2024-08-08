@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-const InteractiveCard = ({ image, title, description, publishedDate, bodyPreview, tags = [] }) => {
+const InteractiveCard = ({ image, title, description, publishedDate, bodyPreview, tags = [], onTagClick }) => {
   const [rotateX, setRotateX] = useState(0);
   const [rotateY, setRotateY] = useState(0);
   const [glarePosition, setGlarePosition] = useState({ x: 50, y: 50 });
@@ -43,6 +43,10 @@ const InteractiveCard = ({ image, title, description, publishedDate, bodyPreview
     };
   }, []);
 
+  const handleTagClick = (tag) => {
+    onTagClick(tag);
+  };
+
   return (
     <div
       ref={cardRef}
@@ -56,7 +60,7 @@ const InteractiveCard = ({ image, title, description, publishedDate, bodyPreview
       }}
     >
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 pointer-events-none"
         style={{
           background: `radial-gradient(circle at ${glarePosition.x}% ${glarePosition.y}%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 50%)`,
         }}
@@ -79,7 +83,8 @@ const InteractiveCard = ({ image, title, description, publishedDate, bodyPreview
           {tags.split(', ').map((tag, index) => (
             <span
               key={index}
-              className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm"
+              className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm cursor-pointer hover:bg-gray-200"
+              onClick={() => handleTagClick(tag)}
             >
               {tag}
             </span>
