@@ -34,7 +34,7 @@ function CreaArticoloComp() {
           />
         </div>
         <div>
-          <label htmlFor="contenuto" className="block text-sm font-medium text-gray-700">Contenuto (Markdown supportato)</label>
+          <label htmlFor="contenuto" className="block text-sm font-medium text-gray-700" >Contenuto (Con supporto a Markdown)</label>
           <div className="flex space-x-2">
             <button
               type="button"
@@ -86,12 +86,9 @@ function CreaArticoloComp() {
           </select>
         </div>
         <div>
-          <button
-            type="submit"
-            className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
-          >
-            Crea Articolo
-          </button>
+        <button type="submit" className="w-full block bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+          Crea articolo
+        </button>
         </div>
       </form>
     </div>
