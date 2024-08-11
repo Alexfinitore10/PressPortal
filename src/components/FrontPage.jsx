@@ -31,7 +31,7 @@ function FrontPage() {
 
   const handleTagClick = (tag) => {
     console.log(`Clicked on tag: ${tag}`);
-    // Qui puoi aggiungere la logica per filtrare gli articoli in base al tag cliccato
+    //TODO Qui puoi aggiungere la logica per filtrare gli articoli in base al tag cliccato
   };
 
   return (
